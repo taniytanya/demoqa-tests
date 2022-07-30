@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/TestSuccessSubmit.java" afterDir="false" />
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add success registration test for page https://demoqa.com/automation-practice-form">
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/TestSuccessSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/TestSuccessSubmit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +118,21 @@
       <option name="presentableId" value="Default" />
       <updated>1659204503061</updated>
     </task>
+    <task id="LOCAL-00001" summary="add success registration test for page https://demoqa.com/automation-practice-form">
+      <created>1659217757704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659217757704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add success registration test for page https://demoqa.com/automation-practice-form">
+      <created>1659217793379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659217793379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add success registration test for page https://demoqa.com/automation-practice-form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add success registration test for page https://demoqa.com/automation-practice-form" />
   </component>
 </project>

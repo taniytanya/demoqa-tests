@@ -37,7 +37,7 @@ public class TestSuccessSubmit {
         $("[for = hobbies-checkbox-1]").click();
         $("[for = hobbies-checkbox-2]").click();
         $("[for = hobbies-checkbox-3]").click();
-        $("#uploadPicture").uploadFile(new File("/IdeaProjects/demoqa-tests/src/test/resources/pict.png"));
+        $("#uploadPicture").uploadFile(new File("/IdeaProjects/demoqa-tests/src/test/resources/file.txt"));
         $("#currentAddress").setValue("Moscow, Gagarina 1");
         $("#state").click();
         $(byText("NCR")).click();
@@ -54,7 +54,7 @@ public class TestSuccessSubmit {
         $(".modal-body").shouldHave(text("Moscow, Gagarina 1"));
         $(".modal-body").shouldHave(text("English, Math"));
         $(".modal-body").shouldHave(text("Sports, Reading, Music"));
-        $(".modal-body").shouldHave(text("pict.png"));
+        $(".modal-body").shouldHave(text("file.txt"));
         $(".modal-body").shouldHave(text("NCR Delhi"));
 
     }
