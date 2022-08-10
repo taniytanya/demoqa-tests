@@ -1,2 +1,2 @@
-# demoqa-tests
-tests for https://demoqa.com
+# tests-tests
+tests for https://tests.com
