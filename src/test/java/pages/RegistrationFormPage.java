@@ -24,7 +24,9 @@ public class RegistrationFormPage {
             genderFemale = $("#gender-radio-2"),
             genderOther = $("#gender-radio-3"),
             subjectsInput = $("#subjectsInput"),
-            hobbiesInput = $("[for = hobbies-checkbox-1]"),
+            sportsInput = $("[for = hobbies-checkbox-1]"),
+            readingInput = $("[for = hobbies-checkbox-2]"),
+            musicInput = $("[for = hobbies-checkbox-3]"),
             pictureInput = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
             submitButton = $("#submit");
@@ -82,8 +84,14 @@ public class RegistrationFormPage {
         return this;
     }
 
-    public RegistrationFormPage setHobby() {
-        hobbiesInput.click();
+    public RegistrationFormPage setHobby(String value) {
+        if (value == "Sports") {
+            sportsInput.click();
+        } else if (value == "Reading") {
+            readingInput.click();
+        } else {
+            musicInput.click();
+        }
         return this;
     }
 
