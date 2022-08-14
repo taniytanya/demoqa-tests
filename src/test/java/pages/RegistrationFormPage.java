@@ -9,6 +9,7 @@ import pages.components.StateAndCityComponent;
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class RegistrationFormPage {
@@ -24,9 +25,7 @@ public class RegistrationFormPage {
             genderFemale = $("#gender-radio-2"),
             genderOther = $("#gender-radio-3"),
             subjectsInput = $("#subjectsInput"),
-            sportsInput = $("[for = hobbies-checkbox-1]"),
-            readingInput = $("[for = hobbies-checkbox-2]"),
-            musicInput = $("[for = hobbies-checkbox-3]"),
+            hobbyInput = $("#hobbiesWrapper"),
             pictureInput = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
             submitButton = $("#submit");
@@ -85,13 +84,7 @@ public class RegistrationFormPage {
     }
 
     public RegistrationFormPage setHobby(String value) {
-        if (value == "Sports") {
-            sportsInput.click();
-        } else if (value == "Reading") {
-            readingInput.click();
-        } else {
-            musicInput.click();
-        }
+        hobbyInput.$(byText(value)).click();
         return this;
     }
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add page object and components">
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="change hobby input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <recent name="pages.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationFormTest.successRegistrationRequiredFields">
+  <component name="RunManager" selected="Gradle.RegistrationFormTest.successRegistrationAllFields">
     <configuration name="RegistrationFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationFormTest.successRegistrationRequiredFields" />
         <item itemvalue="Gradle.RegistrationFormTest.successRegistrationAllFields" />
+        <item itemvalue="Gradle.RegistrationFormTest.successRegistrationRequiredFields" />
         <item itemvalue="Gradle.RegistrationFormTest" />
         <item itemvalue="Gradle.TestSuccessSubmit (1)" />
         <item itemvalue="Gradle.TestSuccessSubmit.successSubmit" />
@@ -260,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660165242674</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change hobby input">
+      <created>1660323281056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660323281056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +283,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add success registration test for page https://demoqa.com/automation-practice-form" />
     <MESSAGE value="add page object and components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add page object and components" />
+    <MESSAGE value="change hobby input" />
+    <option name="LAST_COMMIT_MESSAGE" value="change hobby input" />
   </component>
 </project>
