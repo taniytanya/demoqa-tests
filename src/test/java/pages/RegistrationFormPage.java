@@ -11,6 +11,7 @@ import java.io.File;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+import static java.lang.String.format;
 
 public class RegistrationFormPage {
     public final static String TITLE_TEXT = "Student Registration Form";
@@ -21,10 +22,9 @@ public class RegistrationFormPage {
             lastNameInput = $("#lastName"),
             emailInput = $("#userEmail"),
             phoneNumber = $("#userNumber"),
-            genderMale = $("#gender-radio-1"),
-            genderFemale = $("#gender-radio-2"),
-            genderOther = $("#gender-radio-3"),
+
             subjectsInput = $("#subjectsInput"),
+    genderInput = $("#genterWrapper"),
             hobbyInput = $("#hobbiesWrapper"),
             pictureInput = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
@@ -61,13 +61,7 @@ public class RegistrationFormPage {
     }
 
     public RegistrationFormPage setGender(String value) {
-        if (value == "Male") {
-            genderMale.parent().click();
-        } else if (value == "Female") {
-            genderFemale.parent().click();
-        } else {
-            genderOther.parent().click();
-        }
+        genderInput.$(byText(value)).click();
         return this;
 
     }
