@@ -13,8 +13,8 @@ public class TestBase {
 
     @BeforeAll
     static void configure() {
-        if (System.getProperty("selenide.remote") != null) {
-            Configuration.remote = System.getProperty("selenide.remote");
+        if (System.getProperty("remote_browser") != null) {
+            Configuration.remote = System.getProperty("remote_browser");
         }
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DesiredCapabilities capabilities = new DesiredCapabilities();
