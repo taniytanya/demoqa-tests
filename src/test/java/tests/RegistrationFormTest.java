@@ -4,10 +4,7 @@ import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -23,6 +20,7 @@ import static java.lang.String.format;
 import static tests.TestData.*;
 
 public class RegistrationFormTest extends TestBase {
+
 
     Faker faker = new Faker();
 
@@ -58,14 +56,13 @@ public class RegistrationFormTest extends TestBase {
     }
 
 
-
-
     @Test
     @DisplayName("Success Registration on demoqa with All Fields")
     @Owner("Tanya")
     @Story("Demoqa registration form")
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Testing", url = "https://demoqa.com")
+    @Tag("all")
     void successRegistrationAllFields() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
@@ -104,7 +101,6 @@ public class RegistrationFormTest extends TestBase {
         });
 
 
-
     }
 
     @Test
@@ -113,6 +109,8 @@ public class RegistrationFormTest extends TestBase {
     @Story("Demoqa registration form")
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Testing", url = "https://demoqa.com")
+    @Tag("smoke")
+    @Tag("all")
     void successRegistrationRequiredFields() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
