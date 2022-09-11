@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add video and screenshots">
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add attachments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +111,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationFormTest.successRegistrationAllFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SystemProperties.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RegistrationFormTest.successRegistrationAllFields&quot;" />
+            <option value="&quot;properties.SystemProperties.simpleTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,9 +201,9 @@
       <list>
         <item itemvalue="Gradle.demoqa-tests [allureServe]" />
         <item itemvalue="Gradle.RegistrationFormTest" />
+        <item itemvalue="Gradle.SystemProperties.simpleTest" />
         <item itemvalue="Gradle.demoqa-tests [allureReport]" />
         <item itemvalue="Gradle.demoqa-tests [downloadAllure]" />
-        <item itemvalue="Gradle.RegistrationFormTest.successRegistrationAllFields" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662919739523</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add attachments">
+      <created>1662920657074</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662920657074</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +336,7 @@
     <MESSAGE value="add allure" />
     <MESSAGE value="add remote" />
     <MESSAGE value="add video and screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="add video and screenshots" />
+    <MESSAGE value="add attachments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add attachments" />
   </component>
 </project>
