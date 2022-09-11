@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add remote">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Attach.java" afterDir="false" />
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add video and screenshots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Attach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,8 +201,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.demoqa-tests [allureServe]" />
-        <item itemvalue="Gradle.demoqa-tests [allureReport]" />
         <item itemvalue="Gradle.RegistrationFormTest" />
+        <item itemvalue="Gradle.demoqa-tests [allureReport]" />
         <item itemvalue="Gradle.demoqa-tests [downloadAllure]" />
         <item itemvalue="Gradle.RegistrationFormTest.successRegistrationAllFields" />
       </list>
@@ -300,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662918689694</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add video and screenshots">
+      <created>1662919739523</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662919739523</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +329,7 @@
     <MESSAGE value="add TestData" />
     <MESSAGE value="add allure" />
     <MESSAGE value="add remote" />
-    <option name="LAST_COMMIT_MESSAGE" value="add remote" />
+    <MESSAGE value="add video and screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="add video and screenshots" />
   </component>
 </project>

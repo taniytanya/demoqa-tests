@@ -102,8 +102,7 @@ public class RegistrationFormTest extends TestBase {
                     .checkResult("Address", userAddress)
                     .checkResult("State and City", userStateAndCity);
         });
-        Attach.addVideo();
-        Attach.takeScreenshot();
+
 
 
     }
@@ -135,8 +134,7 @@ public class RegistrationFormTest extends TestBase {
                     .checkResult("Mobile", userPhoneNumber)
                     .checkResult("Date of Birth", userDateOfBirth);
         });
-        Attach.addVideo();
-        Attach.takeScreenshot();
+
 
     }
 }
