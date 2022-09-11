@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add parameters">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add parameters1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662927505406</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add parameters1">
+      <created>1662929030310</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662929030310</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +362,7 @@
     <MESSAGE value="add video and screenshots" />
     <MESSAGE value="add attachments" />
     <MESSAGE value="add parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add parameters" />
+    <MESSAGE value="add parameters1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parameters1" />
   </component>
 </project>
