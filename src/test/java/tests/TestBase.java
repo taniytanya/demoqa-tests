@@ -13,11 +13,11 @@ public class TestBase {
 
     @BeforeAll
     static void configure() {
-        if (System.getProperty("remote_browser") != null) {
-            Configuration.remote = System.getProperty("remote_browser");
-        }
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DesiredCapabilities capabilities = new DesiredCapabilities();
+        if (System.getProperty("remote") != null) {
+            Configuration.remote = System.getProperty("remote");
+        }
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
