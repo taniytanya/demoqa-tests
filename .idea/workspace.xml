@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add allure">
+    <list default="true" id="f8ab4588-6401-4a6b-b1b2-bfbf20602add" name="Changes" comment="add remote">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Attach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,8 +201,8 @@
       <list>
         <item itemvalue="Gradle.demoqa-tests [allureServe]" />
         <item itemvalue="Gradle.demoqa-tests [allureReport]" />
-        <item itemvalue="Gradle.demoqa-tests [downloadAllure]" />
         <item itemvalue="Gradle.RegistrationFormTest" />
+        <item itemvalue="Gradle.demoqa-tests [downloadAllure]" />
         <item itemvalue="Gradle.RegistrationFormTest.successRegistrationAllFields" />
       </list>
     </recent_temporary>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662916610369</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add remote">
+      <created>1662918689694</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918689694</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +320,7 @@
     <MESSAGE value="change hobby input" />
     <MESSAGE value="add TestData" />
     <MESSAGE value="add allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add allure" />
+    <MESSAGE value="add remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="add remote" />
   </component>
 </project>

@@ -1,14 +1,23 @@
 package tests;
 
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import com.github.javafaker.Faker;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import utils.RandomUtils;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static io.qameta.allure.Allure.step;
 import static java.lang.String.format;
 import static tests.TestData.*;
@@ -47,6 +56,9 @@ public class RegistrationFormTest extends TestBase {
         userDateOfBirth = format("%s %s,%s", day, month, year);
 
     }
+
+
+
 
     @Test
     @DisplayName("Success Registration on demoqa with All Fields")
@@ -90,6 +102,8 @@ public class RegistrationFormTest extends TestBase {
                     .checkResult("Address", userAddress)
                     .checkResult("State and City", userStateAndCity);
         });
+        Attach.addVideo();
+        Attach.takeScreenshot();
 
 
     }
@@ -121,6 +135,8 @@ public class RegistrationFormTest extends TestBase {
                     .checkResult("Mobile", userPhoneNumber)
                     .checkResult("Date of Birth", userDateOfBirth);
         });
+        Attach.addVideo();
+        Attach.takeScreenshot();
 
     }
 }
